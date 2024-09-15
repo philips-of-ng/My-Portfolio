@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/offCanvas.css" />
+    <title>Philips Edun</title>
+  </head>
+  <body>
+    <div id="off-canvas-mi" class="off-canvas-mi">
+      <div class="ocv-header">
+        <button id="ocv-close">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="ocv-body">
+        <a href="#work"> Works</a>
+        <a href="#"> Contact</a>
+        <a href="#"> About me</a>
+        <a href="#blog"> Blog</a>
+      </div>
+    </div>
+
+    <header>
+      <nav>
+        <div class="text-logo">
+          <h4>Philips_of_NG</h4>
+          <p>Fullstack Dev.</p>
+        </div>
+
+        <div class="nav-div">
+          <ul>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-div">
+          <button id="ocvOpen">
+            <span class="material-symbols-outlined"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="section-one" id="home">
+        <div class="wrapper">
+          <div class="s1-left">
+            <h1 class="my-2">
+              Hi, I am Philips, <br />
+              Full stack developer.
+            </h1>
+            <p class="my-3 col-10">
+              With a strong foundation in both frontend and backend development,
+              I specialize in building efficient, scalable web applications that
+              deliver seamless user experiences.
+            </p>
+
+            <a
+              href="./files/Web Development _roadmap.pdf"
+              download="./files/Web Development _roadmap.pdf"
+            >
+              <button class="dcv mx-auto" href="#">Download Resume</button>
+            </a>
+          </div>
+
+          <div class="s1-right">
+            <img src="./images/philips_of_ng.jpg" alt="" />
+          </div>
+
+          <div class="s1-left-2">
+            <h1 class="my-2">
+              Hi 🙋‍♂️, I am Philips, <br />
+              Full stack developer.
+            </h1>
+            <p class="my-3">
+              With a strong foundation in both frontend and backend development,
+              I specialize in building efficient, scalable web applications that
+              deliver seamless user experiences.
+            </p>
+
+            <a
+              href="./files/Web Development _roadmap.pdf"
+              download="./files/Web Development _roadmap.pdf"
+            >
+              <button class="dcv mx-auto" href="#">Download Resume</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-two" id="blog">
+        <div class="s2">
+          <div class="s2-top">
+            <h4>Recent Posts</h4>
+            <a href="#">See all</a>
+          </div>
+
+          <!-- ids -- blogContainer, oneBlog blogTopic, blogDate, blogDescr -->
+           
+          <div class="s2-main" id="blogContainer">
+
+            <div class="s2-card" id="oneBlog">
+              <h3 class="mb-2" id="blogTopic">
+                Introduction to Artificial Intelligence
+              </h3>
+
+              <div class="date-category my-3">
+                <p id="blogDate">20th of August, 2024</p>
+                <p id="blogCategory">Tech, AI</p>
+              </div>
+
+              <p id="blogDescr">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+                earum est accusamus aperiam. Voluptate nobis accusantium
+                pariatur placeat eos perspiciatis? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Ipsum, consectetur.
+              </p>
+            </div>
+
+            <!-- <div class="s2-card">
+              <h3 class="mb-2">Introduction to Artificial Intelligence</h3>
+
+              <div class="date-category my-3">
+                <p>20th of August, 2024</p>
+                <p>Tech, AI</p>
+              </div>
+
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+                earum est accusamus aperiam. Voluptate nobis accusantium
+                pariatur placeat eos perspiciatis? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Amet, laudantium!
+              </p>
+            </div> -->
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section-three" id="works">
+        <div class="s3-top">
+          <h4>Featured Works</h4>
+          <a href="#">See all</a>
+        </div>
+
+        <div class="s3-main" id="workContainer">
+          <div class="s3-card" id="oneWork">
+            <div class="s3-card-img">
+              <img src="./images/coder.jpg" alt="" id="workImage" />
+            </div>
+
+            <div class="s3-card-text">
+              <div>
+                <h3 id="workTitle">Designing Dashboards</h3>
+              </div>
+
+              <div class="s3-date-category my-3">
+                <p id="workYear" class="s3-year">2024</p>
+                <p id="workType" class="s3-cat">Dashboard</p>
+              </div>
+
+              <div>
+                <p id="workDescr">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam, aliquam. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quibusdam, aliquam. Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Eum ipsum quidem cum totam
+                  excepturi assumenda sapiente omnis, eveniet voluptates beatae?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="s3-card">
+            <div class="s3-card-img">
+              <img src="./images/coder.jpg" alt="" />
+            </div>
+
+            <div class="s3-card-text">
+              <div>
+                <h3>Designing Dashboards</h3>
+              </div>
+
+              <div class="s3-date-category my-3">
+                <p class="s3-year">2024</p>
+                <p class="s3-cat">Dashboard</p>
+              </div>
+
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam, aliquam. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quibusdam, aliquam. Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Eum ipsum quidem cum totam
+                  excepturi assumenda sapiente omnis, eveniet voluptates beatae?
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="s3-card">
+            <div class="s3-card-img">
+              <img src="./images/coder.jpg" alt="" />
+            </div>
+
+            <div class="s3-card-text">
+              <div>
+                <h3>Designing Dashboards</h3>
+              </div>
+
+              <div class="s3-date-category my-3">
+                <p class="s3-year">2024</p>
+                <p class="s3-cat">Dashboard</p>
+              </div>
+
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam, aliquam. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quibusdam, aliquam. Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Eum ipsum quidem cum totam
+                  excepturi assumenda sapiente omnis, eveniet voluptates beatae?
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="section-four">
+        <div class="s4-top">
+          <h4>Reviews</h4>
+        </div>
+
+        <div class="s4-main" id="reviewContainer">
+          <div class="one-rev" id="oneReview">
+            <div class="stars" id="rev-stars-div">
+              <!-- <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i> -->
+            </div>
+
+            <div class="rev-profile">
+              <img id="rev-image" src="./images/coder.jpg" alt="" />
+              <p id="rev-name">Joseph Olanrewaju</p>
+            </div>
+
+            <div class="the-text">
+              <p id="rev-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sapiente eligendi nisi voluptatibus? Delectus, omnis harum autem
+                veritatis temporibus inventore! A, qui repudiandae. Molestias,
+                explicabo voluptate.
+              </p>
+            </div>
+          </div>
+
+          <!-- <div class="one-rev">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+
+            <div class="rev-profile">
+              <img src="./images/coder.jpg" alt="" />
+              <p>Joseph Olanrewaju</p>
+            </div>
+
+            <div class="the-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sapiente eligendi nisi voluptatibus? Delectus, omnis harum autem
+                veritatis temporibus inventore! A, qui repudiandae. Molestias,
+                explicabo voluptate.
+              </p>
+            </div>
+          </div> -->
+
+          <!-- <div class="one-rev">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+
+            <div class="rev-profile">
+              <img src="./images/coder.jpg" alt="" />
+              <p>Joseph Olanrewaju</p>
+            </div>
+
+            <div class="the-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sapiente eligendi nisi voluptatibus? Delectus, omnis harum autem
+                veritatis temporibus inventore! A, qui repudiandae. Molestias,
+                explicabo voluptate.
+              </p>
+            </div>
+          </div> -->
+
+        </div>
+      </section>
+
+      <section class="section-five">
+        <div class="s5-top">
+          <h4>Contact me</h4>
+        </div>
+
+        <div class="s5-main">
+          <form action="https://formspree.io/f/mqazjwln" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" required></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <div class="socials">
+          <a href="https://www.x.com/philips_of_ng"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://wa.me/+2348129248289"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://www.instagram.com/dev_philips"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.github.com/philips-of-ng"><i class="bi bi-github"></i></a>
+          <a href="www.facebook.com/"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.linkedin.com/philips_of_ng"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <div class="copyrights">
+          <p>©️ Copyrights Philips O. Edun</p>
+        </div>
+      </footer>
+    </main>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+.off-canvas-mi {
+  width: 0;
+  background-color: rgb(245,245,238);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  transition: width 2.5s ease;
+  transition: height 2.5s ease;
+  display: none;
+
+  padding: 25px 15px;
+}
+
+.off-canvas-mi-open {
+  width: 70vw;
+  height: 100%;
+  transition: width 2.5s ease;
+  display: block;
+}
+
+.ocv-header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-bottom: 1.5px solid grey;
+  padding: 15px 0;
+}
+
+.ocv-header button {
+  border: none;
+  border-radius: 5px;
+}
+
+.ocv-header button svg {
+  fill: black !important;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.ocv-body {
+  width: 100%;
+}
+
+.ocv-body a {
+  display: block;
+  margin: 25px 0;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  text-align: right;
+}

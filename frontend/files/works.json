@@ -1,0 +1,37 @@
+[
+  {
+    "workTitle": "API Development for Google",
+    "workImage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "workYear": "2022",
+    "workType": "API Dev",
+    "workDescr": "This is a simple API development project for a company in Lagos, Nigeria. The API is meantt to manage record of staffs and customer of the company."
+  },
+  {
+    "workTitle": "Web Dvelopment Collab Project with BetaKoppa",
+    "workImage": "https://images.pexels.com/photos/461076/pexels-photo-461076.jpeg",
+    "workYear": "2023",
+    "workType": "blog",
+    "workDescr": "This is a simple API development project for a company in Lagos, Nigeria. The API is meantt to manage record of staffs and customer of the company."
+  },
+  {
+    "workTitle": "Building of a full stack project for an E-commerce",
+    "workImage": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+    "workYear": "2024",
+    "workType": "blog",
+    "workDescr": "This is a simple API development project for a company in Lagos, Nigeria. The API is meantt to manage record of staffs and customer of the company."
+  },
+  {
+    "workTitle": "Frontend Project for a banking system",
+    "workImage": "https://images.pexels.com/photos/461076/pexels-photo-461076.jpeg",
+    "workYear": "2023",
+    "workType": "blog",
+    "workDescr": "This is a simple API development project for a company in Lagos, Nigeria. The API is meantt to manage record of staffs and customer of the company."
+  },
+  {
+    "workTitle": "API Updating and Restructuring for Sterling Bank PLC",
+    "workImage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "workYear": "2024",
+    "workType": "blog",
+    "workDescr": "This is a simple API development project for a company in Lagos, Nigeria. The API is meantt to manage record of staffs and customer of the company."
+  }
+]

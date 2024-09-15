@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Joseph Eminence",
+    "reviewText": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quaerat blanditiis officia quas voluptatibus adipisci cupiditate nobis obcaecati, commodi fugiat, quos itaque culpa omnis necessitatibus inventore nam natus voluptate expedita vero dignissimos labore vel minus ex! In eaque ipsum perferendis!",
+    "stars": 5,
+    "image": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+  },
+  {
+    "name": "Edun Israel",
+    "reviewText": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quaerat blanditiis officia quas voluptatibus adipisci cupiditate nobis obcaecati, commodi fugiat, quos itaque culpa omnis necessitatibus inventore nam natus voluptate expedita vero dignissimos labore vel minus ex! In eaque ipsum perferendis!",
+    "stars": 6,
+    "image": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+  },
+  {
+    "name": "Faruq Adegbola",
+    "reviewText": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quaerat blanditiis officia quas voluptatibus adipisci cupiditate nobis obcaecati, commodi fugiat, quos itaque culpa omnis necessitatibus inventore nam natus voluptate expedita vero dignissimos labore vel minus ex! In eaque ipsum perferendis!",
+    "stars": 4,
+    "image": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+  }
+]

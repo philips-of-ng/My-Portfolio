@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "blogImage": "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg",
+    "description": "A scenic view of the mountains.",
+    "topic": "Mountain Adventure",
+    "category": "Travel",
+    "writerImage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "writerName": "John Doe",
+    "datePosted": "15th of June, 2024"
+  },
+  {
+    "id": 2,
+    "blogImage": "https://images.pexels.com/photos/461076/pexels-photo-461076.jpeg",
+    "description": "Delicious homemade pasta.",
+    "topic": "Italian Cuisine",
+    "category": "Food",
+    "writerImage": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+    "writerName": "Jane Smith",
+    "datePosted": "17th of June, 2024"
+  },
+  {
+    "id": 3,
+    "blogImage": "https://images.pexels.com/photos/461076/pexels-photo-461076.jpeg",
+    "description": "A guide to the best hiking trails.",
+    "topic": "Hiking Tips",
+    "category": "Outdoors",
+    "writerImage": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg",
+    "writerName": "Alice Johnson",
+    "datePosted": "19th of June, 2024"
+  },
+  {
+    "id": 4,
+    "blogImage": "https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg",
+    "description": "Modern art gallery highlights.",
+    "topic": "Art Exhibitions",
+    "category": "Art",
+    "writerImage": "https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg",
+    "writerName": "Michael Brown",
+    "datePosted": "21st of June, 2024"
+  },
+  {
+    "id": 5,
+    "blogImage": "https://images.pexels.com/photos/461076/pexels-photo-461076.jpeg",
+    "description": "Yoga poses for beginners.",
+    "topic": "Yoga Practice",
+    "category": "Health",
+    "writerImage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "writerName": "Emma Wilson",
+    "datePosted": "23rd of June, 2024"
+  },
+  {
+    "id": 6,
+    "blogImage": "https://images.pexels.com/photos/433467/pexels-photo-433467.jpeg",
+    "description": "Exploring the ancient ruins.",
+    "topic": "Historical Sites",
+    "category": "History",
+    "writerImage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "writerName": "Daniel Martinez",
+    "datePosted": "25th of June, 2024"
+  },
+  {
+    "id": 7,
+    "blogImage": "https://images.pexels.com/photos/269141/pexels-photo-269141.jpeg",
+    "description": "The best places to surf.",
+    "topic": "Surfing Spots",
+    "category": "Travel",
+    "writerImage": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+    "writerName": "Laura Thompson",
+    "datePosted": "27th of June, 2024"
+  },
+  {
+    "id": 8,
+    "blogImage": "https://images.pexels.com/photos/207962/pexels-photo-207962.jpeg",
+    "description": "How to grow your own vegetables.",
+    "topic": "Home Gardening",
+    "category": "Lifestyle",
+    "writerImage": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg",
+    "writerName": "James Anderson",
+    "datePosted": "29th of June, 2024"
+  },
+  {
+    "id": 9,
+    "blogImage": "https://images.pexels.com/photos/461076/pexels-photo-461076.jpeg",
+    "description": "Top 10 travel destinations.",
+    "topic": "Travel Guide",
+    "category": "Travel",
+    "writerImage": "https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg",
+    "writerName": "Sarah Lee",
+    "datePosted": "1st of July, 2024"
+  },
+  {
+    "id": 10,
+    "blogImage": "https://images.pexels.com/photos/461076/pexels-photo-461076.jpeg",
+    "description": "Best workout routines.",
+    "topic": "Fitness",
+    "category": "Health",
+    "writerImage": "https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg",
+    "writerName": "David White",
+    "datePosted": "3rd of July, 2024"
+  },
+  {
+    "id": 11,
+    "blogImage": "https://images.pexels.com/photos/461076/pexels-photo-461076.jpeg",
+    "description": "Exploring the wonders of the ocean.",
+    "topic": "Marine Life",
+    "category": "Nature",
+    "writerImage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "writerName": "Megan Davis",
+    "datePosted": "5th of July, 2024"
+  },
+  {
+    "id": 12,
+    "blogImage": "https://images.pexels.com/photos/373943/pexels-photo-373943.jpeg",
+    "description": "Tips for remote work.",
+    "topic": "Remote Work",
+    "category": "Career",
+    "writerImage": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+    "writerName": "Chris Garcia",
+    "datePosted": "7th of July, 2024"
+  },
+  {
+    "id": 13,
+    "blogImage": "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg",
+    "description": "Guide to digital marketing.",
+    "topic": "Digital Marketing",
+    "category": "Business",
+    "writerImage": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg",
+    "writerName": "Amanda Martinez",
+    "datePosted": "9th of July, 2024"
+  },
+  {
+    "id": 14,
+    "blogImage": "https://images.pexels.com/photos/461076/pexels-photo-461076.jpeg",
+    "description": "Best practices for coding.",
+    "topic": "Programming",
+    "category": "Tech",
+    "writerImage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "writerName": "Brian Wilson",
+    "datePosted": "11th of July, 2024"
+  },
+  {
+    "id": 15,
+    "blogImage": "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg",
+    "description": "A scenic view of the city skyline.",
+    "topic": "Urban Exploration",
+    "category": "Travel",
+    "writerImage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "writerName": "Chloe Johnson",
+    "datePosted": "13th of July, 2024"
+  },
+  {
+    "id": 16,
+    "blogImage": "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg",
+    "description": "A scenic view of the city skyline.",
+    "topic": "Urban Exploration",
+    "category": "Travel",
+    "writerImage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "writerName": "Chloe Johnson",
+    "datePosted": "13th of July, 2024"
+  },
+  {
+    "id": 17,
+    "blogImage": "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg",
+    "description": "A scenic view of the city skyline.",
+    "topic": "Urban Exploration",
+    "category": "Travel",
+    "writerImage": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+    "writerName": "Chloe Johnson",
+    "datePosted": "13th of July, 2024"
+  }
+]
