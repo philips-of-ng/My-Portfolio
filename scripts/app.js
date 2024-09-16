@@ -14,20 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
     offCanvas.classList.remove("off-canvas-mi-open");
   });
 
-  /* if (offCanvas.classList.contains('off-canvas-mi-open')) {
-    window.addEventListener("click", (e) => {
-      e.preventDefault()
-      if (
-        offCanvas.classList.contains("off-canvas-mi-open") &&
-        / !offCanvas.contains(e.target) &&
-        e.target !== ocvOpen
-      ) {
-        offCanvas.classList.remove("off-canvas-mi-open");
-      }
-    });
-  } */
-
 });
+
 
 
 // FETCHING THE BLOGS FROM THE JSON FILE/API
