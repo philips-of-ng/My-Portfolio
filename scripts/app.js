@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // FETCHING THE BLOGS FROM THE JSON FILE/API
-const blogUrl = "../files/blogs.json";
+const blogUrl = "https://github.com/philips-of-ng/My-JSON-Files/blob/main/blogs.json";
 const fetchBlogs = async () => {
   try {
     const response = await fetch(blogUrl);
@@ -56,7 +56,7 @@ fetchBlogs();
 
 //FETCHING THE WORKS FROM THE JSON FILE/API
 
-const workUrl = "../files/works.json";
+const workUrl = 'https://github.com/philips-of-ng/My-JSON-Files/blob/main/works.json';
 const fetchWorks = async () => {
   try {
     const response = await fetch(workUrl);
@@ -91,7 +91,7 @@ const renderWorks = (works) => {
 
 fetchWorks();
 
-const reviewUrl = "../files/reviews.json";
+const reviewUrl = "https://github.com/philips-of-ng/My-JSON-Files/blob/main/reviews.json";
 const fetchReviews = async () => {
   try {
     const response = await fetch(reviewUrl);
